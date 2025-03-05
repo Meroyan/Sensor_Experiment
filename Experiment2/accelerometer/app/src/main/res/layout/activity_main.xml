@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="top"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/acceleration_x"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="acceleration_x"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/acceleration_y"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="acceleration_y"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/acceleration_z"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="acceleration_z"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/acceleration_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="acceleration_total"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/ifmove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="ifmove"
+            android:textSize="30sp" />
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:context="com.example.mystep2.MainActivity">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_step"
+                android:textSize="25dp"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>
